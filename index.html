@@ -646,7 +646,11 @@
                 <div class="flag-text-content">
                   <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">冰阔乐个人 blog</div>
                   
-                      <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"></div>
+                    <div class="ani animated default-excerpt" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <vue-typed-js :strings="defaultDesc" :loop="defaultDescTypedLoop" :type-speed="100" :back-speed="50">
+                        <h1 class="typing"></h1>
+                      </vue-typed-js>
+                    </div>
                     
                 </div>
                 <div style="display: flex;" class="flag-text-btns">
@@ -679,7 +683,7 @@
   var loop = JSON.parse('true') ? false : JSON.parse('true');
   var effect = 'slide';
   var swiperLength = parseInt(document.querySelector(".swiper-length").innerText);
-  var defaultDesc = '';
+  var defaultDesc = '告诉自己，现在的你,不能再混再疯再懒惰了，前途很重要';
   defaultDesc = defaultDesc.split(',');
   var defaultDescTypedLoop = JSON.parse('true');
   var vm = new Vue({
@@ -1824,8 +1828,8 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Tue Mar 29 2022 17:31:13 GMT+0800 (中国标准时间)</div>
-            <div id="last-update-show">2022-03-29 日</div>
+            <div id="last-update" style="display: none;">Wed Mar 30 2022 08:45:15 GMT+0800 (中国标准时间)</div>
+            <div id="last-update-show">2022-03-30 日</div>
           
         </div>
         
@@ -1875,7 +1879,7 @@
           try {
             document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
           } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2022-03-29 日';
+            document.getElementById('last-update-show').innerHTML = '2022-03-30 日';
           }
         </script>
         
