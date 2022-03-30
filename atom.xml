@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-29T08:40:05.242Z</updated>
+  <updated>2022-03-30T06:17:05.679Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2022/03/29/di-yi-pian-bo-ke/"/>
     <id>http://example.com/2022/03/29/di-yi-pian-bo-ke/</id>
     <published>2022-03-29T03:59:15.000Z</published>
-    <updated>2022-03-29T08:40:05.242Z</updated>
+    <updated>2022-03-30T06:17:05.679Z</updated>
     
     
       
@@ -34,6 +34,10 @@
     
     
     
+    <category term="HTML" scheme="http://example.com/categories/HTML/"/>
+    
+    
+    <category term="HTML" scheme="http://example.com/tags/HTML/"/>
     
   </entry>
   
@@ -42,7 +46,7 @@
     <link href="http://example.com/2022/03/29/hello-world/"/>
     <id>http://example.com/2022/03/29/hello-world/</id>
     <published>2022-03-29T03:54:11.425Z</published>
-    <updated>2022-03-29T08:40:02.924Z</updated>
+    <updated>2022-03-30T06:17:07.080Z</updated>
     
     
       
@@ -55,6 +59,10 @@
     
     
     
+    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
     
   </entry>
   
